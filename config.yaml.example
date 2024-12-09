@@ -1,0 +1,25 @@
+# #から始まる行はコメントアウトされます
+# エクセルファイルのパス、シート名、スクリーンショット保存先を設定
+# 絶対パスで指定する
+
+settings:
+  # example for Mac
+  excel_file: '/Users/taiyo/Desktop/e-tax-automate/sample_data/sample_data.xlsx'
+  sheet_name: 'Sheet1'
+  screenshot_dir: '/Users/taiyo/Desktop/e-tax-automate/screenshot'
+  password: 'password'
+  email: 'example@example.com'
+  # 税理士情報
+  tax_accountant_name: '山田太郎'
+  tax_accountant_tel: '0312345678'
+
+  # # example for Windows
+  # excel_file: 'C:\\Users\\taiyo\\Desktop\\e-tax-automate\\sample_data\\sample_data.xlsx'
+  # sheet_name: 'Sheet1'
+  # screenshot_dir: 'C:\\Users\\taiyo\\Desktop\\e-tax-automate\\screenshot'
+  # password: 'password'
+  # email: 'example@example.com'
+  # # 税理士情報
+  # tax_accountant_name: '山田太郎'
+  # tax_accountant_tel: '0312345678'
+
